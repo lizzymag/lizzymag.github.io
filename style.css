@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&display=swap');
+
+h1 {
+    font-family: 'Bebas Neue';
+}
+
 html {
     font-family: 'Lora';
     text-align: center;
@@ -8,10 +14,14 @@ html {
 }
 
 p {
-    color:blue;
+    color:black;
     font-family: 'Lora'
 }
 
 .post:hover {
-    color:antiquewhite;
+    color:blue;
+}
+
+iframe {
+    width:auto;
 }
